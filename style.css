@@ -80,7 +80,7 @@ nav {
     flex-wrap: wrap;
     width: 88vw;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .scrolable_div {
@@ -300,6 +300,16 @@ td {
     font-weight: 400;
     line-height: 2;
     color: #949494;
+}
+#project_designer{
+    width:85vw;
+    text-align: center;
+    background-color:gray;
+    padding:5px;
+    border-radius:10px solid gray;
+}
+#project_designer:hover{
+    color:greenyellow;
 }
 
 @media screen and (max-width:500px) {
